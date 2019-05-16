@@ -1,0 +1,19 @@
+{
+  "name": "krpano-merge",
+  "version": "1.0.0",
+  "description": "krpano multiresolution images download & merge",
+  "main": "app.js",
+  "scripts": {
+    "build": "pkg app.js -t node10-win-x64",
+    "build-all": "pkg app.js"
+  },
+  "author": "cooltyn",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "merge-img": "^2.1.2",
+    "readline-sync": "^1.4.9",
+    "request": "^2.88.0",
+    "xmldom": "^0.1.27"
+  }
+}

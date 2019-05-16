@@ -1,1 +1,1 @@
-# krpano-merge
+# krpano multiresolution images download & merge
